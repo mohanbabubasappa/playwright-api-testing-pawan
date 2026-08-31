@@ -1,3 +1,9 @@
+/*
+Test: Create Booking
+Request Type:  Post 
+Request Body: Static
+
+*/
 import { test, expect } from "@playwright/test";
 
 const BASE_URL = "https://restful-booker.herokuapp.com";
