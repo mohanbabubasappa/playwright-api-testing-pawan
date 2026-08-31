@@ -11,7 +11,7 @@ const BASE_URL = "https://restful-booker.herokuapp.com";
 
 test("Create booking with JSON data", async ({ request }) => {
   //Reading data from json
-  const jsonFile = "test_data/post_request_body.json";
+  const jsonFile = "tests/test_data/post_request_body.json";
   const requestPayload = JSON.parse(fs.readFileSync(jsonFile, "utf-8"));
 
   //send the post request
