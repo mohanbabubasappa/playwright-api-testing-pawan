@@ -6,6 +6,7 @@ Basic Auth Format: Authorization: Basic base64(username:password)
 */
 
 import { test, expect } from "@playwright/test";
+import Buffer from "buffer";
 
 const BASE_URL = "https://httpbin.org";
 
